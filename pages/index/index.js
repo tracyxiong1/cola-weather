@@ -2,9 +2,7 @@
 //获取应用实例
 var app = getApp()
 Page({
-  data: {
-    Loadinghidden:true
-  },
+  data: {},
   onLoad: function () {
     wx.showLoading({
       title: '加载中...',
